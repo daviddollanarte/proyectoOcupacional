@@ -19,6 +19,26 @@
 body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 }
+
+@media screen and (min-width: 769px) {
+  .mobile {
+    display: none;
+  }
+  header {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .laptop {
+    display: none;
+  }
+}
+
+.navbar-toggler {
+  color: white;
+}
+
 #body_index
 {
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('img/it.jpg');
@@ -28,14 +48,14 @@ body {
 }
 #body_start
 {
-  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('img/punto_de_partida.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('img/biography.jpg');
   background-size: cover;
   background-color:#333;
   background-attachment: fixed;
 }
 #body_goals
 {
-  background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('img/objetivos.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('img/resume.png');
   background-size: cover;
   background-color:#333;
   background-attachment: fixed;
