@@ -1,26 +1,20 @@
-document.getElementById("showCollapse").addEventListener("mouseover", function () {
+document.getElementById("showCollapse").addEventListener("mouseenter", function () {
     document.getElementById("trigger").click();
 });
-if (document.getElementById("showCollapse2")) {
-    document.getElementById("showCollapse2").addEventListener("mouseover", function () {
-        document.getElementById("trigger2").click();
-    });
-};
-if (document.getElementById("showCollapse3")) {
-    document.getElementById("showCollapse3").addEventListener("mouseover", function () {
-        document.getElementById("trigger3").click();
-    });
-};
-if (document.getElementById("change1")){
-    let textChange = document.getElementById("change1");
-    textChange.addEventListener("mouseover", function () {
-        textChange.innerHTML = `solo`;
-        textChange.classList.add("badge");
-        textChange.classList.add("bg-danger");
-    });
-    textChange.addEventListener("mouseout", function () {
-        textChange.innerHTML = `mejor`;
-        textChange.classList.remove("badge");
-        textChange.classList.remove("bg-danger");
-    })
-};
+document.getElementById("showCollapse").addEventListener("mouseleave", function () {
+    document.getElementById("trigger").click();
+});
+
+document.getElementById("showCollapse2").addEventListener("mouseenter", function () {
+    document.getElementById("trigger2").click();
+});
+document.getElementById("showCollapse2").addEventListener("mouseleave", function () {
+    document.getElementById("trigger2").click();
+});
+
+document.getElementById("showCollapse3").addEventListener("mouseenter", function () {
+    document.getElementById("trigger3").click();
+});
+document.getElementById("showCollapse3").addEventListener("mouseleave", function () {
+    document.getElementById("trigger3").click();
+});

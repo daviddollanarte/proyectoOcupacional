@@ -35,6 +35,15 @@ body {
   }
 }
 
+.pager{
+  color: rgb(136, 136, 136);
+  padding: 15px;
+}
+
+.pager:hover{
+  color: white;
+}
+
 .navbar-toggler {
   color: white;
 }

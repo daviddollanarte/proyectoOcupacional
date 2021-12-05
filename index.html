@@ -52,8 +52,8 @@
             aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <nav class="nav nav-masthead justify-content-center float-md-end">
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <nav class="nav nav-masthead">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Inicio</a>
@@ -80,39 +80,43 @@
 
     <main class="px-3">
       <div id="showCollapse">
-        <h1 id="project">Acerca de mi</h1>
-        <br>
-        <p class="lead text-muted mobile">(Toca en el título) </p>
-        <p class="lead text-muted laptop">(Desliza el mouse sobre el título) </p>
-      </div>
-      <button id="trigger" class="btn btn-primary d-none" type="button" data-bs-toggle="collapse"
-        data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">
-      </button>
-      </p>
-      <div class="collapse" id="collapse">
         <div>
-          <p class="lead">
-            Mi nombre es David Dollanarte, soy un estudiante, que vive en Montevideo, Uruguay y actualmente estoy
-            interesado en hacer un
-            cambio en mi rubro laboral y comenzar a trabajar en el rubro IT.
-          </p>
+          <h1 id="project">Acerca de mi</h1>
           <br>
-          <p class="lead">
-            Mi objetivo es comenzar a trabajar en una empresa donde sea posible dar mis primeros pasos en la industria,
-            crecer en el puesto, afrontando desafíos cada vez más complejos lo más rápido posible y darle un buen uso al entusiasmo y la energía que me genera involucrarme en proyectos de tecnología 
-          </p>
-          <br>
-          <p class="lead">
-            Esta página es una presentación para quienes les interese mi
-            trabajo, para que puedan conocerme un poco más y conocer lo que hago
-          </p>
-          <br>
-          <a href="biography.html" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Arrancamos</a>
+          <p class="lead text-muted mobile">(Toca en el título) </p>
+          <p class="lead text-muted laptop">(Desliza el mouse sobre el título) </p>
+        </div>
+        <button id="trigger" class="btn btn-primary d-none" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">
+        </button>
+        </p>
+        <div class="collapse" id="collapse">
+          <div>
+            <p class="lead">
+              Mi nombre es David Dollanarte, soy un estudiante, que vive en Montevideo, Uruguay y actualmente estoy
+              interesado en hacer un
+              cambio en mi rubro laboral y comenzar a trabajar en el rubro IT.
+            </p>
+            <br>
+            <p class="lead">
+              Mi objetivo es comenzar a trabajar en una empresa donde sea posible dar mis primeros pasos en la
+              industria,
+              crecer en el puesto, afrontando desafíos cada vez más complejos lo más rápido posible y darle un buen uso
+              al entusiasmo y la energía que me genera involucrarme en proyectos de tecnología
+            </p>
+            <br>
+            <p class="lead">
+              Esta página es una presentación para quienes les interese mi
+              trabajo, para que puedan conocerme un poco más y conocer lo que hago
+            </p>
+            <br>
+          </div>
         </div>
       </div>
     </main>
 
-    <footer id="showCollapse2" class="mt-auto pb-5 text-white-50">
+    <footer class="mt-auto pb-5">
+      <a href="biography.html"><i class="pager fas fa-angle-right fa-3x"></i></a>
     </footer>
   </div>
 
