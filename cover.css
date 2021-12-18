@@ -69,16 +69,16 @@ body {
   background-color:#333;
   background-attachment: fixed;
 }
-#body_action
+#body_portfolio
 {
-  background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('img/plan_accion.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('img/portfolio.jpg');
   background-size: cover;
   background-color:#333;
   background-attachment: fixed;
 }
-#body_reflection
+#body_contact
 {
-  background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('img/reflexion.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('img/contact.jpg');
   background-size: cover;
   background-color:#333;
   background-attachment: fixed;
